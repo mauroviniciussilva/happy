@@ -20,8 +20,8 @@
 
 ### Web Screenshot
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-  <img src="https://github.com/mauroviniciussilva/happy/blob/master/docs/web-landing.png" width="400px">
-  <img src="https://github.com/mauroviniciussilva/happy/blob/master/docs/orphanages-map.png" width="400px">
+  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/web-landing.png" width="400px">
+  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/orphanages-map.png" width="400px">
 </div>
 
 # Technologies
