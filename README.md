@@ -1,44 +1,106 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/logo.png" alt="Happy" width="280"/>
+</p>
 
-## Available Scripts
+<p align="center">	
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/mauroviniciussilva/happy?color=29B6D1">
+  <a aria-label="Completed" href="https://nextlevelweek.com/episodios/omnistack/edicao/3">
+    <img src="https://img.shields.io/badge/Happy-NLW%203.0-29B6D1"></img>
+  </a>
+  <a href="https://github.com/mauroviniciussilva/happy/commits/master">
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/mauroviniciussilva/happy?color=29B6D1">
+  </a> 
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-29B6D1">
+  <a href="https://github.com/mauroviniciussilva/happy/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/mauroviniciussilva/happy?color=29B6D1&logo=github">
+  </a>
+</p>
 
-In the project directory, you can run:
+<div align="center">Project made to connect people to orphanages, inspired by Next Level Week #3 @Rocketseat</div>
 
-### `yarn start`
+### Web Screenshot
+<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
+  <img src="https://github.com/mauroviniciussilva/happy/blob/master/docs/web-landing.png" width="400px">
+  <img src="https://github.com/mauroviniciussilva/happy/blob/master/docs/orphanages-map.png" width="400px">
+</div>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Technologies
+This project was made using the follow technologies:
+<ul>
+  <li><a href="https://nodejs.org/en/">NodeJS</a></li>
+  <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
+  <li><a href="https://expressjs.com/en/api.html#express">Express</a></li>
+  <li><a href="https://reactjs.org/">React</a></li>
+  <li><a href="https://reactnative.dev/">React Native</a></li>
+  <li><a href="https://www.sqlite.org/index.html">SQLite</a></li>
+</ul>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
+# API
 
-### `yarn test`
+The API was built with the following functionalities:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Orphanages
+- Create orphanage;
+- List orphanages;
+- List orphanage by id;
 
-### `yarn build`
+> NOTE: you can find a [Postman](https://www.postman.com/) Collection at the `server/postman` folder, with examples of all the requests.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# How to run
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 1. Clone Repository
 
-### `yarn eject`
+```bash
+git clone https://github.com/mauroviniciussilva/happy.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 2. Run API
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Go to server folder
+```
+cd server
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Install dependencies
+```
+yarn
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Run migrations
 
-## Learn More
+As the project is using SQLite, it is not necessary to do any previous database installation or configuration to run the project. You just need to run the migrations with the following command:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+yarn typeorm migration:run
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+#### Run
+```
+yarn dev
+```
+
+> **NOTE**: *API will run at port 3333*
+
+## 3. Run WEB Project
+
+#### Go to web folder
+```bash
+cd web
+```
+
+#### Install dependencies
+```
+yarn
+```
+
+#### Run application
+```
+yarn start
+```
+
+> **NOTE**: *WEB Application will run at port 3000*

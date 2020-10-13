@@ -8,7 +8,7 @@
 #page-map aside {
     width: 440px;
     background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
-    padding: 80px;
+    padding: 60px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -43,8 +43,8 @@
 #page-map .create-orphanage {
     z-index: 10;
     position: absolute;
-    right: 40px;
-    bottom: 40px;
+    right: 20px;
+    bottom: 20px;
     width: 64px;
     height: 64px;
     background: #15c3d6;
