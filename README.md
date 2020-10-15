@@ -88,6 +88,14 @@ yarn dev
 
 ## 3. Run WEB Project
 
+### Setup `.env` file
+
+As I'm using mapbox you need to have the token to render the map. You can see how to create one in the official [docs](https://docs.mapbox.com/help/how-mapbox-works/access-tokens/). After getting the token, you must create an `.env` file in the `/web` folder with the following syntax:
+
+```dosini
+REACT_APP_MAPBOX_TOKEN=<mapbox_token>
+```
+
 #### Go to web folder
 ```bash
 cd web
