@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "559f5f9f-ad7c-40cd-a7dc-b874b5253fde",
+		"name": "Happy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Orphanages",
+			"item": [
+				{
+					"name": "Create Orphanage",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "St Bernard Children's Home",
+									"type": "text"
+								},
+								{
+									"key": "latitude",
+									"value": "-23.7014195",
+									"type": "text"
+								},
+								{
+									"key": "longitude",
+									"value": "-46.551358",
+									"type": "text"
+								},
+								{
+									"key": "about",
+									"value": "Promote welcoming, preserving family, social and community bonds, through the exercise of citizenship, whether in the family of origin or substitute, offering a favorable environment for the development of children or adolescents.",
+									"type": "text"
+								},
+								{
+									"key": "instructions",
+									"value": "We are grateful for any financial assistance that may be offered to maintain the Institution's services.",
+									"type": "text"
+								},
+								{
+									"key": "opening_hours",
+									"value": "Opens: 8:00 - Closes: 6:00 PM",
+									"type": "text"
+								},
+								{
+									"key": "open_on_weekends",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "images",
+									"type": "file",
+									"src": [
+										"/C:/Users/mauro/Downloads/dormitorio-02-1-1024x768.jpg",
+										"/C:/Users/mauro/Downloads/playground-1-1024x768.jpg",
+										"/C:/Users/mauro/Downloads/refeitorio-02-1-1024x768.jpg"
+									]
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3333/orphanages",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3333",
+							"path": [
+								"orphanages"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Orphanages",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"St Bernard Children's Home\",\r\n    \"latitude\": -23.7014195,\r\n    \"longitude\": -46.551358,\r\n    \"about\": \"Promote welcoming, preserving family, social and community bonds, through the exercise of citizenship, whether in the family of origin or substitute, offering a favorable environment for the development of children or adolescents, such as medical, dental and psychological care and monitoring, educational activities , creative workshops, recreation, leisure, education, schooling, specialized treatment for children with special needs.\",\r\n    \"instructions\": \"We are grateful for any financial assistance that may be offered to maintain the Institution's services.\",\r\n    \"opening_hours\": \"Opens: 8:00 - Closes: 6:00 PM\",\r\n    \"open_on_weekends\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3333/orphanages",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3333",
+							"path": [
+								"orphanages"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Orphanage By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3333/orphanages/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3333",
+							"path": [
+								"orphanages",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
