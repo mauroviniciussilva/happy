@@ -20,8 +20,17 @@
 
 ### Web Screenshot
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/web-landing.png" width="400px">
-  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/orphanages-map.png" width="400px">
+  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/web-landing.png" 
+  width="400px" alt="Landing Page">
+  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/orphanages-map.png" width="400px" alt="Orphanages Map">
+</div>
+<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
+  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/create-orphanages-1.png" width="400px" alt="Create Orphanage 1">
+  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/create-orphanages-2.png" width="400px" alt="Create Orphanage 2">
+</div>
+<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
+  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/orphanage-detail-1.png" width="400px" alt="Orphanage Detail 1">
+  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/orphanage-detail-2.png" width="400px" alt="Orphanage Detail 2">
 </div>
 
 # Technologies
