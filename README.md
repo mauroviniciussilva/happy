@@ -34,13 +34,13 @@
 
 ### Mobile Screenshot
 <div>
-   <img src="./docs/map.jpg" width="180" alt="Orphanages Map">
-   <img src="./docs/create-orphanages-1.jpg" width="180" alt="Create Orphanage 1">
-   <img src="./docs/create-orphanages-2.jpg" width="180" alt="Create Orphanage 2">
+   <img src="./docs/map.jpg" width="180" alt="Orphanages Map" />
+   <img src="./docs/create-orphanages-1.jpg" width="180" alt="Create Orphanage 1" />
+   <img src="./docs/create-orphanages-2.jpg" width="180" alt="Create Orphanage 2" />
    <br/>
-   <img src="./docs/create-orphanages-3.jpg" width="180" alt="Create Orphanage 3>
-   <img src="./docs/orphanage-detail-1.jpg" width="180" alt="Orphanage Detail 1">
-   <img src="./docs/orphanage-detail-2.jpg" width="180" alt="Orphanage Detail 2">
+   <img src="./docs/create-orphanages-3.jpg" width="180" alt="Create Orphanage 3 />
+   <img src="./docs/orphanage-detail-1.jpg" width="180" alt="Orphanage Detail 1" />
+   <img src="./docs/orphanage-detail-2.jpg" width="180" alt="Orphanage Detail 2" />
 </div>
 
 # Technologies
