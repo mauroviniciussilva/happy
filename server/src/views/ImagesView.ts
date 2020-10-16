@@ -1,11 +1,13 @@
 import Image from "../models/Image"
 
+const BASE_IP_ADRESS = process.env.BASE_IP_ADRESS;
+
 
 export default {
     render(image: Image) {
         return {
             id: image.id,
-            path: `http://localhost:3333/uploads/${image.path}`
+            path: `http://${BASE_IP_ADRESS}/uploads/${image.path}`
         }
     },
 
