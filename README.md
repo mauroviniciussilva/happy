@@ -20,17 +20,27 @@
 
 ### Web Screenshot
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/web-landing.png" 
-  width="400px" alt="Landing Page">
-  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/orphanages-map.png" width="400px" alt="Orphanages Map">
+  <img src="./docs/web-landing.png" width="400px" alt="Landing Page">
+  <img src="./docs/orphanages-map.png" width="400px" alt="Orphanages Map">
 </div>
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/create-orphanages-1.png" width="400px" alt="Create Orphanage 1">
-  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/create-orphanages-2.png" width="400px" alt="Create Orphanage 2">
+  <img src="./docs/create-orphanages-1.png" width="400px" alt="Create Orphanage 1">
+  <img src="./docs/create-orphanages-2.png" width="400px" alt="Create Orphanage 2">
 </div>
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/orphanage-detail-1.png" width="400px" alt="Orphanage Detail 1">
-  <img src="https://github.com/mauroviniciussilva/happy/blob/main/docs/orphanage-detail-2.png" width="400px" alt="Orphanage Detail 2">
+  <img src="./docs/orphanage-detail-1.png" width="400px" alt="Orphanage Detail 1">
+  <img src="./docs/orphanage-detail-2.png" width="400px" alt="Orphanage Detail 2">
+</div>
+
+### Mobile Screenshot
+<div>
+   <img src="./docs/map.jpg" width="180">
+   <img src="./docs/create-orphanage-1.jpg" width="180">
+   <img src="./docs/create-orphanage-2.jpg" width="180">
+   <br/>
+   <img src="./docs/create-orphanage-3.jpg" width="180">
+   <img src="./docs/orphanage-detail-1.jpg" width="180">
+   <img src="./docs/orphanage-detail-2.jpg" width="180">
 </div>
 
 # Technologies
