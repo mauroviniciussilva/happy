@@ -68,6 +68,14 @@ git clone https://github.com/mauroviniciussilva/happy.git
 
 ## 2. Run API
 
+### Setup `.env` file
+
+Create a `.env` file in the `/server` folder and setup your IP Adress:
+
+```dosini
+BASE_IP_ADRESS=<ip_adress>:3333
+```
+
 #### Go to server folder
 ```
 cd server
@@ -121,3 +129,36 @@ yarn start
 ```
 
 > **NOTE**: *WEB Application will run at port 3000*
+
+## 4. Run Mobile Project
+
+To run the mobile project you need a phone with the [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) app instaled or a emulator Android/iOS.
+
+### Setup `.env` file
+
+Create a `.env` file in the `/mobile` folder and setup your IP Adress to access the backend:
+
+```dosini
+BASE_URL=http://<ip_adress>:3333
+```
+
+#### Go to mobile folder
+```
+cd mobile
+```
+
+#### Install Dependencies
+```
+yarn
+```
+
+#### Run Aplication
+```
+yarn start
+```
+
+When you run it, the expo developer tools should open on a browse window. 
+
+You need to read the QRCode with [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) app, or run on emulator to see the result.
+
+---
